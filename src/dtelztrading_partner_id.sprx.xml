@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZTRADING_PARTNER_ID</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZTRADING_PARTNER_ID</OBJ_NAME_M>
+     <HASH_ID>39D2B076FB8F2E61259748EEF6FBB80FEF260F35</HASH_ID>
+     <ID>&lt;type&gt; TradingPartnerID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>TradingPartnerID</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>TradingPartnerID</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZTRADING_PARTNER_ID</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZTRADING_PARTNER_ID</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZTRADING_PARTNER_ID</OBJ_NAME2>
+     <ID>&lt;type&gt; TradingPartnerID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>TradingPartnerID</IFR_NAME>
+     <IFR_TEXT>Identifier</IFR_TEXT>
+     <IFR_XSDTYP>token</IFR_XSDTYP>
+     <IFR_MAXLEN>6</IFR_MAXLEN>
+     <IFR_MINLEN>1</IFR_MINLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZTRADING_PARTNER_ID</R3_NAME>
+     <R3_TEXT>Identifier</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000006</R3_LENGTH>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

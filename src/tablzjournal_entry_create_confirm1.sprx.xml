@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME_M>
+     <HASH_ID>06E94E2DD742F227AD8E2C9D67D36D98A6BE4E4B</HASH_ID>
+     <ID>&lt;type&gt; JournalEntryCreateConfirmationJournalEntry http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>JournalEntryCreateConfirmationJournalEntry</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>JournalEntryCreateConfirmationJournalEntry</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>ACCOUNTING_DOCUMENT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>ACCOUNTING_DOCUMENT</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZACCOUNTING_DOCUMENT</OBJ_NAME_R>
+     <ID>&lt;element&gt; AccountingDocument &lt;type&gt; JournalEntryCreateConfirmationJournalEntry http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>AccountingDocument</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>ACCOUNTING_DOCUMENT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>COMPANY_CODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>COMPANY_CODE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZCOMPANY_CODE_ID</OBJ_NAME_R>
+     <ID>&lt;element&gt; CompanyCode &lt;type&gt; JournalEntryCreateConfirmationJournalEntry http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>CompanyCode</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>COMPANY_CODE</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>FISCAL_YEAR</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>FISCAL_YEAR</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZFISCAL_YEAR_ID</OBJ_NAME_R>
+     <ID>&lt;element&gt; FiscalYear &lt;type&gt; JournalEntryCreateConfirmationJournalEntry http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>FiscalYear</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>FISCAL_YEAR</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZJOURNAL_ENTRY_CREATE_CONFIRM1</OBJ_NAME2>
+     <ID>&lt;type&gt; JournalEntryCreateConfirmationJournalEntry http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>JournalEntryCreateConfirmationJournalEntry</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZJOURNAL_ENTRY_CREATE_CONFIRM1</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

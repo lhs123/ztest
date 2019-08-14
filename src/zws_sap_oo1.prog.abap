@@ -1,0 +1,128 @@
+*&---------------------------------------------------------------------*
+*& Report ZWS_SAP_OO1
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT ZWS_SAP_OO1.
+* class definition
+CLASS PERSON DEFINITION.
+  PUBLIC SECTION.
+  METHODS:CONSTRUCTOR
+          IMPORTING ID TYPE STRING
+                    NAME TYPE STRING,
+  GET_ID  RETURNING VALUE(ID) TYPE STRING,
+  GET_NAME RETURNING VALUE(NAME) TYPE STRING,
+  LEARN.
+
+  PROTECTED SECTION.
+    DATA:ID TYPE STRING,
+          NAME TYPE STRING.
+ENDCLASS.
+
+CLASS TEACHER DEFINITION INHERITING FROM PERSON.
+  PUBLIC SECTION.
+    METHODS:TEACH,
+            LEARN REDEFINITION .
+  PROTECTED SECTION.
+    DATA:COURSE TYPE STRING VALUE 'ABAP'.
+ENDCLASS.
+
+CLASS STUDENT DEFINITION INHERITING FROM PERSON.
+  PUBLIC SECTION.
+    METHODS:PLAY,
+            LEARN REDEFINITION.
+  PROTECTED SECTION.
+    DATA:GAME TYPE STRING VALUE 'LOL'.
+ENDCLASS.
+
+CLASS PARENT DEFINITION INHERITING FROM PERSON.
+  PUBLIC SECTION.
+    METHODS:CONSTRUCTOR
+            IMPORTING ID  TYPE STRING
+                      NAME  TYPE STRING
+                      TYPE  TYPE STRING,
+            HELP IMPORTING CHILDNAME TYPE STRING,
+            LEARN REDEFINITION.
+    PROTECTED SECTION.
+      DATA:CHILDNAME TYPE STRING,
+            TYPE TYPE STRING.
+ENDCLASS.
+*  class implementation
+CLASS PERSON IMPLEMENTATION.
+  METHOD CONSTRUCTOR.
+    ME->ID = ID.
+    ME->NAME = NAME.
+  ENDMETHOD.
+
+  METHOD GET_ID.
+    ID = ME->ID.
+  ENDMETHOD.
+
+  METHOD GET_NAME.
+    NAME = ME->NAME.
+  ENDMETHOD.
+
+  METHOD LEARN.
+    WRITE:/ 'A person can learn.'.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS TEACHER IMPLEMENTATION.
+  METHOD TEACH.
+    WRITE:/ 'My ID is ' && id && ' and I am a teacher named ' && name && ' teaching ' && course.
+  ENDMETHOD.
+
+  METHOD LEARN.
+    WRITE:/ 'I am a teacher and learn by myself'.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS STUDENT IMPLEMENTATION.
+  METHOD PLAY.
+    WRITE:/ 'My ID is ' && id && ' and I am a student named ' && name && 'playing ' && game.
+  ENDMETHOD.
+
+  METHOD LEARN.
+    WRITE:/ 'I am a student and learn from teacher'.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS PARENT IMPLEMENTATION.
+  METHOD CONSTRUCTOR.
+    SUPER->CONSTRUCTOR( ID = ID NAME = NAME ).
+    ME->TYPE = TYPE.
+  ENDMETHOD.
+
+  METHOD HELP.
+    WRITE:/ 'My ID is ' && id && ' and I am a ' && TYPE && ' named ' && name && 'helping ' && CHILDNAME.
+  ENDMETHOD.
+
+  METHOD LEARN.
+    WRITE:/ 'I am a parent and learn by myself'.
+  ENDMETHOD.
+ENDCLASS.
+
+
+DATA:TEACHER_REF TYPE REF TO TEACHER,
+      STUDENT_REF TYPE REF TO STUDENT,
+      PARENT_REF  TYPE REF TO PARENT,
+      PARENT_REF2  TYPE REF TO PARENT.
+START-OF-SELECTION.
+  CREATE OBJECT:
+    TEACHER_REF EXPORTING ID = 'T001' NAME = 'SENNSEI',
+      STUDENT_REF EXPORTING ID = 'S001' NAME = 'GAKUSEI',
+        PARENT_REF EXPORTING ID = 'P001' NAME = 'CHICHI' TYPE = 'father',
+        PARENT_REF2 EXPORTING ID = 'P002' NAME = 'HAHA' TYPE = 'mother'.
+
+  DATA(LV_1) = TEACHER_REF->GET_ID( ).
+  DATA(LV_2) = STUDENT_REF->GET_ID( ).
+WRITE:/ LV_1.
+WRITE:/ LV_2.
+CALL METHOD:TEACHER_REF->LEARN,
+            STUDENT_REF->LEARN,
+            TEACHER_REF->TEACH,
+            STUDENT_REF->PLAY,
+            PARENT_REF->HELP( EXPORTING CHILDNAME = 'GAKUSEI'),
+            PARENT_REF2->HELP( EXPORTING CHILDNAME = 'GAKUSEI'),
+            PARENT_REF->LEARN,
+            PARENT_REF2->LEARN.

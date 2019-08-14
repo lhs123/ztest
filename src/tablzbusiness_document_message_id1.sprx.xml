@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME_M>
+     <HASH_ID>0B4E91174CF4BA60985962DF503648217E7FB4C9</HASH_ID>
+     <ID>&lt;type&gt; BusinessDocumentMessageID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>BusinessDocumentMessageID</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>BusinessDocumentMessageID</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>CONTENT</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>CONTENT</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZBUSINESS_DOCUMENT_MESSAGE_ID</OBJ_NAME_R>
+     <ID>&lt;simpleContent&gt; content &lt;type&gt; BusinessDocumentMessageID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>simpleContent</IFR_TYPE>
+     <IFR_NAME>content</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>CONTENT</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SCHEME_AGENCY_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SCHEME_AGENCY_ID</OBJ_NAME2>
+     <ID>&lt;attribute&gt; schemeAgencyID &lt;type&gt; BusinessDocumentMessageID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>schemeAgencyID</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>token</IFR_XSDTYP>
+     <IFR_MAXLEN>60</IFR_MAXLEN>
+     <IFR_MINLEN>1</IFR_MINLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SCHEME_AGENCY_ID</R3_NAME>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000060</R3_LENGTH>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SCHEME_ID</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SCHEME_ID</OBJ_NAME2>
+     <ID>&lt;attribute&gt; schemeID &lt;type&gt; BusinessDocumentMessageID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>attribute</IFR_TYPE>
+     <IFR_NAME>schemeID</IFR_NAME>
+     <IFR_TAGTYP>A</IFR_TAGTYP>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_XSDTYP>token</IFR_XSDTYP>
+     <IFR_MAXLEN>60</IFR_MAXLEN>
+     <IFR_MINLEN>1</IFR_MINLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SCHEME_ID</R3_NAME>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000060</R3_LENGTH>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZBUSINESS_DOCUMENT_MESSAGE_ID1</OBJ_NAME2>
+     <ID>&lt;type&gt; BusinessDocumentMessageID http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>BusinessDocumentMessageID</IFR_NAME>
+     <IFR_TEXT>Identifier</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZBUSINESS_DOCUMENT_MESSAGE_ID1</R3_NAME>
+     <R3_TEXT>Identifier</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

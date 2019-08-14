@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZEMAIL_URI_TAB</OBJ_NAME>
+     <OBJECT_M>TTYP</OBJECT_M>
+     <OBJ_NAME_M>ZEMAIL_URI_TAB</OBJ_NAME_M>
+     <HASH_ID>2EC365922BD8FB6BF13EA985806A40CECF99DC3A</HASH_ID>
+     <ID>TableOf&lt;type&gt; EmailURI http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>EmailURI</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZEMAIL_URI_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZEMAIL_URI_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZEMAIL_URI_TAB</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZEMAIL_URI</OBJ_NAME_R>
+     <ID>TableOf&lt;type&gt; EmailURI http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>EmailURI</IFR_NAME>
+     <IFR_TEXT>URI</IFR_TEXT>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZEMAIL_URI_TAB</R3_NAME>
+     <R3_TEXT>URI</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

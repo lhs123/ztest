@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME_M>
+     <HASH_ID>1C31F87EBFCD423DFA0999EB5DE10F0A67BCA961</HASH_ID>
+     <ID>&lt;type&gt; JournalEntryCreateRequestJournalEntryDownPayment http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>JournalEntryCreateRequestJournalEntryDownPayment</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>JournalEntryCreateRequestJournalEntryDownPayment</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>SPECIAL_GLCODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>SPECIAL_GLCODE</OBJ_NAME2>
+     <OBJECT_R>DTEL</OBJECT_R>
+     <OBJ_NAME_R>ZSPECIAL_GLCODE</OBJ_NAME_R>
+     <ID>&lt;element&gt; SpecialGLCode &lt;type&gt; JournalEntryCreateRequestJournalEntryDownPayment http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>SpecialGLCode</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>SPECIAL_GLCODE</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TAX_CODE</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TAX_CODE</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZPRODUCT_TAXATION_CHARACTERIS1</OBJ_NAME_R>
+     <ID>&lt;element&gt; TaxCode &lt;type&gt; JournalEntryCreateRequestJournalEntryDownPayment http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>TaxCode</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TAX_CODE</R3_NAME>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TAX_JURISDICTION</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TAX_JURISDICTION</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZTAX_JURISDICTION_CODE</OBJ_NAME_R>
+     <ID>&lt;element&gt; TaxJurisdiction &lt;type&gt; JournalEntryCreateRequestJournalEntryDownPayment http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>TaxJurisdiction</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TAX_JURISDICTION</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZJOURNAL_ENTRY_CREATE_REQUEST8</OBJ_NAME2>
+     <ID>&lt;type&gt; JournalEntryCreateRequestJournalEntryDownPayment http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>JournalEntryCreateRequestJournalEntryDownPayment</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZJOURNAL_ENTRY_CREATE_REQUEST8</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

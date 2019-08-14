@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZSTATE_CENTRAL_BANK_PAYMENT_RE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZSTATE_CENTRAL_BANK_PAYMENT_RE</OBJ_NAME_M>
+     <HASH_ID>58DFAD463BFDCACDFD2ABCAEA698314FD80B9AFB</HASH_ID>
+     <ID>&lt;type&gt; StateCentralBankPaymentReason http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>StateCentralBankPaymentReason</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>StateCentralBankPaymentReason</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZSTATE_CENTRAL_BANK_PAYMENT_RE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZSTATE_CENTRAL_BANK_PAYMENT_RE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZSTATE_CENTRAL_BANK_PAYMENT_RE</OBJ_NAME2>
+     <ID>&lt;type&gt; StateCentralBankPaymentReason http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>StateCentralBankPaymentReason</IFR_NAME>
+     <IFR_TEXT>Code</IFR_TEXT>
+     <IFR_XSDTYP>token</IFR_XSDTYP>
+     <IFR_MAXLEN>3</IFR_MAXLEN>
+     <IFR_MINLEN>1</IFR_MINLEN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZSTATE_CENTRAL_BANK_PAYMENT_RE</R3_NAME>
+     <R3_TEXT>Code</R3_TEXT>
+     <R3_DATATYP>CHAR</R3_DATATYP>
+     <R3_LENGTH>000003</R3_LENGTH>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>

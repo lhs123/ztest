@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEXCHANGE_RATE_RATE</OBJ_NAME>
+     <OBJECT_M>DTEL</OBJECT_M>
+     <OBJ_NAME_M>ZEXCHANGE_RATE_RATE</OBJ_NAME_M>
+     <HASH_ID>F00893C539570AF2AB24CA8454E09471F9CAB68D</HASH_ID>
+     <ID>&lt;type&gt; ExchangeRateRate http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ExchangeRateRate</IFR_NAME>
+     <IFR_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_NSPCE>
+     <IFR_GNSPCE>http://sap.com/xi/SAPSCORE/SFIN</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://sap.com/xi/SAPSCORE/SFIN</X-ML_NSPCE>
+     <X-ML_NAME>ExchangeRateRate</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>DTEL</OBJECT>
+     <OBJ_NAME>ZEXCHANGE_RATE_RATE</OBJ_NAME>
+     <OBJECT1>DTEL</OBJECT1>
+     <OBJ_NAME1>ZEXCHANGE_RATE_RATE</OBJ_NAME1>
+     <OBJECT2>DTEL</OBJECT2>
+     <OBJ_NAME2>ZEXCHANGE_RATE_RATE</OBJ_NAME2>
+     <ID>&lt;type&gt; ExchangeRateRate http://sap.com/xi/SAPSCORE/SFIN http://sap.com/xi/SAPSCORE/SFIN</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>ExchangeRateRate</IFR_NAME>
+     <IFR_TEXT>Numeric</IFR_TEXT>
+     <IFR_XSDTYP>decimal</IFR_XSDTYP>
+     <IFR_PREC>28</IFR_PREC>
+     <IFR_SCALE>14</IFR_SCALE>
+     <R3_TYPE>DTEL</R3_TYPE>
+     <R3_NAME>ZEXCHANGE_RATE_RATE</R3_NAME>
+     <R3_TEXT>Numeric</R3_TEXT>
+     <R3_DATATYP>DEC</R3_DATATYP>
+     <R3_LENGTH>000028</R3_LENGTH>
+     <R3_DECIMAL>000014</R3_DECIMAL>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <FURTHERDATA>&lt;asx:abap xmlns:asx=&quot;http://www.sap.com/abapxml&quot; version=&quot;1.0&quot;&gt;&lt;asx:values&gt;&lt;DATA&gt;&lt;IFR_MININCL&gt;-99999999999999.99999999999999&lt;/IFR_MININCL&gt;&lt;IFR_MAXINCL&gt;99999999999999.99999999999999&lt;/IFR_MAXINCL&gt;&lt;/DATA&gt;&lt;/asx:values&gt;&lt;/asx:abap&gt;</FURTHERDATA>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
